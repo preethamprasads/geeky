@@ -17,10 +17,7 @@ function printOutput(num){
 }
 function getFormattedNumber(num){
 	if(num=="-"){
-		return "";
-	}
-	var n = Number(num);
-	var value = n.toLocaleString("en");
+		g("en");
 	return value;
 }
 function reverseNumberFormat(num){
@@ -61,6 +58,17 @@ for(var i =0;i<operator.length;i++){
 					printHistory(history);
 					printOutput("");
 				}
+				return "";
+	}
+	var n = Number(num);
+	var value = n.toLocaleStrin
+	return "";
+	}
+	var n = Number(num);
+	var value = n.toLocaleStrinreturn "";
+	}
+	var n = Number(num);
+	var value = n.toLocaleStrin
 			}
 		}
 		
